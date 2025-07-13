@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-13 10:56:19</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">时政 国际 军事 美国 以色列 伊朗</td>
+                    <td class="count">14</td>
+                    <td class="percentage">5.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8kwybBitWbp" target="_blank" class="news-link">国际贸易格局，变了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时56分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8kwDFsELSDt" target="_blank" class="news-link">美国征收30%关税，欧盟回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时56分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1927632116293805412" target="_blank" class="news-link">陈熠 4-3 战胜蒯曼，晋级 WTT 美国大满贯女单决赛，将对阵朱雨玲，如何评价本场比赛？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时56分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8kwpqIYb2qI" target="_blank" class="news-link">王毅答凤凰记者问：中国如何同地区国家携手应对美国高额关税？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时56分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF%E5%A5%B3%E5%8D%95%E5%A4%AA%E2%80%9C%E5%86%B7%E2%80%9D" target="_blank" class="news-link">美国大满贯女单太“冷”</a> [7] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7526114382527335946/" target="_blank" class="news-link">怎样看待WTT美国大满贯国乒激战</a> [9] <font color='grey'>- 10时56分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%B4%AA%E7%81%BE%E4%B8%BA%E4%BD%95%E5%A6%82%E6%AD%A4%E4%B8%A5%E9%87%8D" target="_blank" class="news-link">美国洪灾为何如此严重</a> [17] <font color='grey'>- 10时56分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7525821073368449043/" target="_blank" class="news-link">陪看WTT美国大满贯国乒激战</a> [18] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31170158" target="_blank" class="news-link">美国向欧盟、墨西哥发出“关税通牒”，盟友强硬回怼</a> [18] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7525830058456399899/" target="_blank" class="news-link">马克龙强烈反对美国征收30%关税</a> [19] <font color='grey'>- 10时56分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7525836559758295066/" target="_blank" class="news-link">王毅谈南海仲裁案：美国别再炒冷饭</a> [21] <font color='grey'>- 10时56分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7526025221603278857/" target="_blank" class="news-link">伊朗捣毁以在德黑兰秘密无人机工厂</a> [27] <font color='grey'>- 10时56分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E5%85%8B%E9%BE%99%EF%BC%9A%E5%8F%8D%E5%AF%B9%E7%BE%8E%E5%9B%BD%E5%90%91%E6%AC%A7%E7%9B%9F%E5%BE%81%E6%94%B630%25%E5%85%B3%E7%A8%8E" target="_blank" class="news-link">马克龙：反对美国向欧盟征收30%关税</a> [27] <font color='grey'>- 10时56分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E4%B8%BA%E4%BD%95%E6%8D%A2%E6%B1%A4%E4%B8%8D%E6%8D%A2%E8%8D%AF" target="_blank" class="news-link">美国总统为何换汤不换药</a> [30] <font color='grey'>- 10时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2083529" target="_blank" class="news-link">马斯克AI帝国狂飙：xAI估值有望冲击2000亿美元</a> [13] <font color='grey'>- 10时56分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343418&amp;amp;topic_name=%E5%8E%86%E6%97%B64%E5%B9%B4%E7%9A%84%E7%89%B9%E6%96%AF%E6%8B%89%E7%BB%B4%E6%9D%83%E9%97%B9%E5%89%A7%E7%BB%88%E8%90%BD%E5%B9%95" target="_blank" class="news-link">历时4年的特斯拉维权闹剧终落幕</a> [23] <font color='grey'>- 10时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2083346" target="_blank" class="news-link">美股收盘：三大指数集体下跌 白银股逆市走强 英伟达继续新高</a> [10] <font color='grey'>- 10时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2083394" target="_blank" class="news-link">黄仁勋再抛数千万美元英伟达股票，身家超越“股神”巴菲特！</a> [12] <font color='grey'>- 10时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1926575277686920814" target="_blank" class="news-link">英伟达市值突破 4 万亿，超微软名列第一，DeepSeek 重创英伟达失效了吗？</a> [18] <font color='grey'>- 10时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2083429" target="_blank" class="news-link">规模化量产时代来临？智元、宇树科技中标1.24亿人形机器人大单！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1919745906594541869" target="_blank" class="news-link">如何看待网传所谓 ai 图片称「鹿角天牛价值 58 万」，且大量短视频平台网友信以为真?</a> [19] <font color='grey'>- 10时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 10 条)</h3>
+            <h4>今日头条 (4 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7526114382527335946/" target="_blank" class="news-link">怎样看待WTT美国大满贯国乒激战</a> [9]</li><li><a href="https://www.toutiao.com/trending/7525821073368449043/" target="_blank" class="news-link">陪看WTT美国大满贯国乒激战</a> [18]</li><li><a href="https://www.toutiao.com/trending/7525830058456399899/" target="_blank" class="news-link">马克龙强烈反对美国征收30%关税</a> [19]</li><li><a href="https://www.toutiao.com/trending/7526025221603278857/" target="_blank" class="news-link">伊朗捣毁以在德黑兰秘密无人机工厂</a> [27]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF%E5%A5%B3%E5%8D%95%E5%A4%AA%E2%80%9C%E5%86%B7%E2%80%9D" target="_blank" class="news-link">美国大满贯女单太“冷”</a> [7]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31170158" target="_blank" class="news-link">美国向欧盟、墨西哥发出“关税通牒”，盟友强硬回怼</a> [18]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E4%B8%BA%E4%BD%95%E6%8D%A2%E6%B1%A4%E4%B8%8D%E6%8D%A2%E8%8D%AF" target="_blank" class="news-link">美国总统为何换汤不换药</a> [30]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2083529" target="_blank" class="news-link">马斯克AI帝国狂飙：xAI估值有望冲击2000亿美元</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8kwybBitWbp" target="_blank" class="news-link">国际贸易格局，变了</a> <font color='red'><strong>[1]</strong></font></li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1927632116293805412" target="_blank" class="news-link">陈熠 4-3 战胜蒯曼，晋级 WTT 美国大满贯女单决赛，将对阵朱雨玲，如何评价本场比赛？</a> <font color='red'><strong>[3]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
