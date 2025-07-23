@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-23 17:56:00</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">时政 国际 军事 美国 以色列 伊朗</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.31%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8lDx6fejf3c" target="_blank" class="news-link">美国再次“退群”，外交部：不是负责任大国应有的作为</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时56分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8lDxJzh9lU9" target="_blank" class="news-link">外交部：欢迎包括美国在内的各国企业参与中国式现代化</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时56分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8lDreZ5Bm4H" target="_blank" class="news-link">美国常驻北约代表污蔑：中国想用俄乌“拖住”美国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31238574" target="_blank" class="news-link">美国第三次宣布退出联合国教科文组织</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31239052" target="_blank" class="news-link">特朗普宣布美国与菲律宾达成贸易协议</a> [10] <font color='grey'>- 17时56分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1931257162165875499" target="_blank" class="news-link">继印尼后菲律宾也将对美国开放市场，如果整个东南亚都对美国零关税，会对全球经济带来哪些影响？</a> [13] <font color='grey'>- 17时56分</font><br>[douyin] <a href="https://www.douyin.com/hot/2177162" target="_blank" class="news-link">17年来美国核武器重返英国</a> [16] <font color='grey'>- 17时56分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7530106261975600703/" target="_blank" class="news-link">以色列被胡塞缓慢“放血”</a> [20] <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7530102586074992167/" target="_blank" class="news-link">多国抗议 以色列为何还一意孤行</a> [28] <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%BB%A3%E8%A1%A8%EF%BC%9A%E4%B8%AD%E5%9B%BD%E6%83%B3%E7%94%A8%E4%BF%84%E4%B9%8C%E2%80%9C%E6%8B%96%E4%BD%8F%E2%80%9D%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">美国代表：中国想用俄乌“拖住”美国</a> [28] <font color='grey'>- 17时56分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E9%80%80%E5%87%BA%E8%81%94%E5%90%88%E5%9B%BD%E6%95%99%E7%A7%91%E6%96%87%E7%BB%84%E7%BB%87" target="_blank" class="news-link">美国宣布退出联合国教科文组织</a> [30] <font color='grey'>- 17时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2093478" target="_blank" class="news-link">时隔5年 任正非再次与上海交大校长会面</a> [12] <font color='grey'>- 17时56分</font><br>[douyin] <a href="https://www.douyin.com/hot/2177840" target="_blank" class="news-link">华为Pura 80真机测评</a> [17] <font color='grey'>- 17时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751634" target="_blank" class="news-link">中国基建的DeepSeek时刻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%E4%BB%85%E9%80%80%E6%AC%BE%20AI%E5%9B%BE&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">仅退款 AI图</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751615" target="_blank" class="news-link">Meme股“集体暴动”，科技股受挫拖累纳指，国内双焦夜盘继续暴涨，黄金重回3400美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7530106261975600703/" target="_blank" class="news-link">以色列被胡塞缓慢“放血”</a> [20]</li><li><a href="https://www.toutiao.com/trending/7530102586074992167/" target="_blank" class="news-link">多国抗议 以色列为何还一意孤行</a> [28]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%BB%A3%E8%A1%A8%EF%BC%9A%E4%B8%AD%E5%9B%BD%E6%83%B3%E7%94%A8%E4%BF%84%E4%B9%8C%E2%80%9C%E6%8B%96%E4%BD%8F%E2%80%9D%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">美国代表：中国想用俄乌“拖住”美国</a> [28]</li></ul></div>
+        </body>
+        </html>
+        
