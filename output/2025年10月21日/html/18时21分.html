@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-21 18:21:02</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">时政 国际 军事 美国 以色列 伊朗 巴基斯坦</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757466" target="_blank" class="news-link">美国股债汇齐涨，中概指数跑赢大盘，苹果涨近4%，黄金反弹创新高，比特币涨回11万美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时21分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563598235013647882/" target="_blank" class="news-link">特朗普称一年后美国稀土将多如牛毛</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时21分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8ncoJZZhKJj" target="_blank" class="news-link">中国停购美国大豆，一谷仓积压崩塌，豆粒喷涌而出(图)</a> [7] <font color='grey'>- 18时21分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345976&amp;amp;topic_name=%E7%89%B9%E6%9C%97%E6%99%AE%E5%BC%80%E9%A3%9E%E6%9C%BA%E6%B3%BC%E7%B2%AA%2C%E7%BE%8E%E5%9B%BD%E5%86%8D%E6%AC%A1%E5%91%B3%E5%A4%A7" target="_blank" class="news-link">特朗普开飞机泼粪,美国再次味大</a> [16] <font color='grey'>- 18时21分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563596275036245514/" target="_blank" class="news-link">美国真能在一年内从澳洲搞来稀土吗</a> [19] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%A4%E5%88%86%E9%92%9F%E7%9C%8B%E6%87%82F1%E7%BE%8E%E5%9B%BD%E7%AB%99" target="_blank" class="news-link">两分钟看懂F1美国站</a> [19] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31814878" target="_blank" class="news-link">国际调解院开业仪式在香港举行</a> [20] <font color='grey'>- 18时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563598887944982054/" target="_blank" class="news-link">美媒预测关税战结局称美国必败</a> [24] <font color='grey'>- 18时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757552" target="_blank" class="news-link">DeepSeek OCR论文引爆网络！Andrej Karpathy：我很喜欢；马斯克：未来99%都是光子</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时21分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757530" target="_blank" class="news-link">DeepSeek新模型被硅谷夸疯了！用二维视觉压缩一维文字，单GPU能跑，“谷歌核心机密被开源”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时21分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B%E6%B7%B1%E5%BA%A6%E8%A7%A3%E8%AF%BB" target="_blank" class="news-link">DeepSeek新模型深度解读</a> [10] <font color='grey'>- 18时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31813433" target="_blank" class="news-link">AI时代需要什么样的程序员</a> [7] <font color='grey'>- 18时21分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345970&amp;amp;topic_name=Blg%E5%A4%A7%E5%8F%98%E5%A4%A9%2C%E5%8A%9F%E5%8B%8B%E6%95%99%E7%BB%83Bail%E5%8D%B8%E4%BB%BB%E7%A6%BB%E9%98%9F" target="_blank" class="news-link">Blg大变天,功勋教练Bail卸任离队</a> [30] <font color='grey'>- 18时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAMate70Air%E6%9B%9D%E5%85%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BAMate70Air%25E6%259B%259D%25E5%2585%2589%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D5%26lcate%3D5001%26cate%3D5001%26flag%3D1%26band_rank%3D5%26pos%3D5%26stream_entry_id%3D31%26display_time%3D1761041213%26pre_seqid%3D176104121374703119501101" target="_blank" class="news-link">华为Mate70Air曝光</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7563556243709627943/" target="_blank" class="news-link">闻泰并购安世半导体是“蛇吞象”</a> [28] <font color='grey'>- 18时21分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 5 条)</h3>
+            <h4>今日头条 (3 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7563598235013647882/" target="_blank" class="news-link">特朗普称一年后美国稀土将多如牛毛</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://www.toutiao.com/trending/7563596275036245514/" target="_blank" class="news-link">美国真能在一年内从澳洲搞来稀土吗</a> [19]</li><li><a href="https://www.toutiao.com/trending/7563598887944982054/" target="_blank" class="news-link">美媒预测关税战结局称美国必败</a> [24]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31814878" target="_blank" class="news-link">国际调解院开业仪式在香港举行</a> [20]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E4%B8%A4%E5%88%86%E9%92%9F%E7%9C%8B%E6%87%82F1%E7%BE%8E%E5%9B%BD%E7%AB%99" target="_blank" class="news-link">两分钟看懂F1美国站</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
