@@ -1,17 +1,24 @@
 中国
 时政
-+违纪撤职
+违纪撤职
+
+中南大学
+湖南大学
+华中科技大学
+西北工业大学
+校区
 
 时政
 国际
 军事
 美国
 以色列
-伊朗
-巴基斯坦
+日本
+台湾
 
 DeepSeek
 梁文锋
+芯片
 
 华为
 任正非
@@ -33,40 +40,38 @@ HarmonyOS
 马斯克
 特斯拉
 
-微软
-Microsoft
-
 黄仁勋
 英伟达
 NVIDIA
 
-AMD
-
 谷歌
+微软
 google
 gemini
 deepmind
-
+硅谷
 chatgpt
 openai
-
+人工智能
 claude
 Anthropic
-
-
 ai
-!gai
-人工智能
 
-机器人
 
 芯片
 半导体
 光刻机
+稀土
 
 科技
 电子设计大赛
 控制
+无人机
+
+西点东输
+国家电网
+新能源
+电力系统、
 
 
 
