@@ -1,0 +1,138 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-01 19:14:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">中国 时政 违纪撤职</td>
+                    <td class="count">17</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E5%94%AF%E4%B8%80%EF%BC%81%E4%B8%AD%E5%9B%BD%E6%A0%B8%E8%83%BD%E7%A7%91%E6%8A%80%E5%AE%9E%E7%8E%B0%E6%96%B0%E7%AA%81%E7%A0%B4" target="_blank" class="news-link">世界唯一！中国核能科技实现新突破</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31870158" target="_blank" class="news-link">中国核能迎来“换道超车”：燃料从“铀”到“钍”，核电无需再“傍海而居”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时14分</font><br>[douyin] <a href="https://www.douyin.com/hot/2290611" target="_blank" class="news-link">中国第42次南极考察队出征</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758449" target="_blank" class="news-link">美银Hartnett：标普AI泡沫太大，黄金与中国股票或是最佳对冲工具</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nvorc8hnJG" target="_blank" class="news-link">美企急交B计划，转头一看：中国航天工程又有突破</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8nvKTvC7a1k" target="_blank" class="news-link">欧盟使劲憋坏招，“德国对报复中国很犹豫”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346601&amp;amp;topic_name=%E6%97%A5%E6%9C%AC%E7%86%8A%E7%81%BE%E6%80%AA%E4%B8%AD%E5%9B%BD%2C%E6%8A%97%E6%97%A5%E8%8B%B1%E7%86%8A%E5%A4%AA%E5%9D%8F%E4%BA%86" target="_blank" class="news-link">日本熊灾怪中国,抗日英熊太坏了</a> [6] <font color='grey'>- 19时14分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%98%8E%E5%B9%B4%E5%B0%86%E5%8F%91%E5%B0%84%E6%A2%A6%E8%88%9F%E4%B8%80%E5%8F%B7%E7%AD%894%E8%89%98%E9%A3%9E%E8%88%B9" target="_blank" class="news-link">中国明年将发射梦舟一号等4艘飞船</a> [7] <font color='grey'>- 19时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31870078" target="_blank" class="news-link">神舟二十一号航天员乘组顺利进驻“天宫”，中国航天员完成第7次“太空会师”</a> [8] <font color='grey'>- 19时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nvVRAkK6ND" target="_blank" class="news-link">纯碰瓷！特朗普重启核试验，也是“给中国送大礼”</a> [8] <font color='grey'>- 19时14分</font><br>[zhihu] <a href="https://www.zhihu.com/question/34067305" target="_blank" class="news-link">如何看待中国的眼保健操？</a> [8] <font color='grey'>- 19时14分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566703239677100078/" target="_blank" class="news-link">中国船舶工业向“绿”而行</a> [9] <font color='grey'>- 19时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31874217" target="_blank" class="news-link">郑丽文就任中国国民党主席</a> [9] <font color='grey'>- 19时14分</font><br>[douyin] <a href="https://www.douyin.com/hot/2290505" target="_blank" class="news-link">郑丽文就任中国国民党主席</a> [16] <font color='grey'>- 19时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31867682" target="_blank" class="news-link">视频丨中国航天一箭穿月</a> [17] <font color='grey'>- 19时14分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%BA%86%E4%B8%8D%E8%B5%B7%EF%BC%81%E6%98%A8%E5%A4%A9%E4%B8%8A%E5%A4%AA%E7%A9%BA%E4%BB%8A%E5%A4%A9%E5%8E%BB%E5%8D%97%E6%9E%81" target="_blank" class="news-link">中国人了不起！昨天上太空今天去南极</a> [19] <font color='grey'>- 19时14分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31871733" target="_blank" class="news-link">中国航天员第7次“太空会师”，3.5小时快速交会对接是如何实现的？</a> [20] <font color='grey'>- 19时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">时政 国际 军事 美国 以色列 日本 台湾</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7567624529602678314/" target="_blank" class="news-link">美国为何出尔反尔推进对华301调查</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2188323" target="_blank" class="news-link">习近平会见日本首相高市早苗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758448" target="_blank" class="news-link">美国打击升级？报道称很快要打委内瑞拉地面军事目标，特朗普否认，原油上窜下跳</a> [6] <font color='grey'>- 19时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nvbiDiFTxi" target="_blank" class="news-link">特朗普一番话，让台网友惊呼：台湾没筹码啰</a> [6] <font color='grey'>- 19时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758450" target="_blank" class="news-link">习近平会见日本首相高市早苗</a> [10] <font color='grey'>- 19时14分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1967289541179176778" target="_blank" class="news-link">如何看待国际奥委会宣布终止与沙特电竞基金会合作，首届奥林匹克电竞运动会将胎死腹中？</a> [14] <font color='grey'>- 19时14分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1966801887979341169" target="_blank" class="news-link">如何看待大批轰 6K 贴近台湾岛，释放出哪些信号？</a> [18] <font color='grey'>- 19时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 半导体 光刻机 稀土</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1967886377577342546" target="_blank" class="news-link">商务部回应安世半导体相关问题，将综合考虑企业实际情况，对符合条件的出口予以豁免，如何解读？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nvYkTEOR3A" target="_blank" class="news-link">特朗普亚洲行背后的三个因素：同盟、稀土和朝鲜</a> [7] <font color='grey'>- 19时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2188532" target="_blank" class="news-link">商务部回应安世半导体相关问题：将对符合条件的出口予以豁免</a> [9] <font color='grey'>- 19时14分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7567011527182794771/" target="_blank" class="news-link">事关安世半导体 中方再发声</a> [19] <font color='grey'>- 19时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31871243" target="_blank" class="news-link">商务部就安世半导体相关问题应询答问：将对符合条件的出口予以豁免</a> [19] <font color='grey'>- 19时14分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%B3%E4%BA%8E%E5%AE%89%E4%B8%96%E5%8D%8A%E5%AF%BC%E4%BD%93+%E4%B8%AD%E6%96%B9%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">关于安世半导体 中方最新回应</a> [28] <font color='grey'>- 19时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 微软 google gemini deepmind 硅谷 chatgpt openai 人工智能 claude Anthropic ai</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758470" target="_blank" class="news-link">微软财报泄露了OpenAI的财务数据：单季度巨亏115亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时14分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1967273703189480617" target="_blank" class="news-link">如何看待 OpenAI 计划上市，估值或高达 1 万亿美元？此前不是宣称「非盈利」吗？</a> [17] <font color='grey'>- 19时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技 电子设计大赛 控制 无人机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758419" target="_blank" class="news-link">亚马逊靓丽业绩提振科技股，美股三大股指收高为十月画上句号，加密货币反弹</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nvcKuONmY4" target="_blank" class="news-link">俄罗斯国防部：一夜之间击落98架乌克兰无人机</a> [11] <font color='grey'>- 19时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">DeepSeek 梁文锋 芯片</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758417" target="_blank" class="news-link">英伟达与韩国科技巨头达成重大AI协议：部署26万颗Blackwell芯片，打造亚洲首个&quot;工业AI云&quot;！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2188519" target="_blank" class="news-link">宇树、乐聚、智元IPO竞速 两代人形机器人企业的“殊途同归”？</a> [12] <font color='grey'>- 19时14分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2188470" target="_blank" class="news-link">马斯克再画“天上大饼”：特斯拉或年内发布飞行汽车原型</a> [13] <font color='grey'>- 19时14分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31871733" target="_blank" class="news-link">中国航天员第7次“太空会师”，3.5小时快速交会对接是如何实现的？</a> [20]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8nvorc8hnJG" target="_blank" class="news-link">美企急交B计划，转头一看：中国航天工程又有突破</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>zhihu (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/1967273703189480617" target="_blank" class="news-link">如何看待 OpenAI 计划上市，估值或高达 1 万亿美元？此前不是宣称「非盈利」吗？</a> [17]</li><li><a href="https://www.zhihu.com/question/1966801887979341169" target="_blank" class="news-link">如何看待大批轰 6K 贴近台湾岛，释放出哪些信号？</a> [18]</li></ul></div>
+        </body>
+        </html>
+        
